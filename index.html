@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sen&display=swap"
+      rel="stylesheet"
+    />
+    <title>to-do list</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="header">
+        <div id="title">
+          todolist
+        </div>
+        <div id="input">
+          <input
+            type="text"
+            name="todo-input"
+            id="todo-input"
+            class="input-element"
+            placeholder="What do to?"
+          />
+          <button type="button" name="add-btn" id="add-btn" class="input-btn">
+            add something
+          </button>
+        </div>
+        <div class="todo-list" id="list"></div>
+      </div>
+    </div>
+
+    <script defer src="client-api.js"></script>
+    <script defer src="script.js"></script>
+  </body>
+</html>

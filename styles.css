@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+}
+
+.input-element {
+  width: 500px;
+  font-family: "Sen", sans-serif;
+}
+
+#title {
+  font-size: 50px;
+  margin: 20px;
+  font-family: "Sen", sans-serif;
+}
+.item-text {
+  font-size: 20px;
+  margin: 10px;
+  font-family: "Sen", sans-serif;
+}
+
+.remove-btn {
+  font-family: "Sen", sans-serif;
+}
+
+.input-btn {
+  font-family: "Sen", sans-serif;
+}
